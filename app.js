@@ -34,7 +34,7 @@ app.post("/", (req, res) => {
     const url = "https://us21.api.mailchimp.com/3.0/lists/3b500ba5c3";
     const option = {
         method: "POST",
-        auth: "Kuang:6460bbac6a6557b5da8b7773a1faa891-us21"
+        auth: "Kuang:apikey"
     };
 
     const request = https.request(url, option, (response) => {
@@ -65,10 +65,3 @@ app.get("/failure", (req, res) => {
 app.listen(port, () => {
     console.log("server start at port localhost:3000");
 });
-
-
-// MailChimp ApiKeys
-// 6460bbac6a6557b5da8b7773a1faa891-us21
-
-// ListID / AudienceID
-// 3b500ba5c3
