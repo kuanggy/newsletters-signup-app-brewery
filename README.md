@@ -6,12 +6,14 @@ This project is using Node JS, Express JS.
 <h1>Getting Started</h1>
 
 ```
-npm init
-
-npm express nodemon body-parser request
+npm install
 ```
 
 <h1>Run</h1>
+```
+node app.js
+```
+if you have "nodemon" installed:
 
 ```
 nodemon app.js
